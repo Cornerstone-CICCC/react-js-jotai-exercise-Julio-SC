@@ -11,7 +11,6 @@ const User = () => {
   const [age, setAge] = useAtom(ageAtom)
   const [hobbies, setHobbies] = useAtom(hobbiesAtom)
 
-  // Inputs temporales antes de hacer submit
   const [form, setForm] = useState({
     firstName: '',
     lastName: '',
